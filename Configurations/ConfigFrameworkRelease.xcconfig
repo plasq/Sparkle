@@ -1,2 +1,4 @@
 #include "ConfigFramework.xcconfig"
 
+// App prefs can need access to some constants
+GCC_SYMBOLS_PRIVATE_EXTERN = NO
